@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Channel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-title">
+            <h1>Welcome to Our YouTube Channel</h1>
+        </div>
+        <div class="top-nav">
+            <a href="#home">Home</a>
+            <a href="#social-media">Social Media</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <!-- Sidebar Menu -->
+    <nav id="sidebar">
+        <div class="menu-header">
+            <h2>Menu</h2>
+            <button id="close-menu">&times;</button>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#social-media">Social Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Menu Toggle Button -->
+    <button id="open-menu">&#9776; Menu</button>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <!-- Floating Social Media Icons -->
+            <div class="floating-social-icons">
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank">
+                    <img src="twitter-icon.png" alt="Twitter">
+                </a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank">
+                    <img src="facebook-icon.png" alt="Facebook">
+                </a>
+            </div>
+
+            <!-- Video Player -->
+            <div class="video-player">
+                <iframe src="https://www.youtube.com/embed/sample-video" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <!-- Channel Promotion -->
+            <div class="promotion">
+                <h1>Welcome to Our YouTube Channel</h1>
+                <p><a href="https://www.youtube.com/yourchannel" target="_blank">Subscribe Now!</a></p>
+            </div>
+
+            <!-- Video Gallery -->
+            <div class="video-gallery">
+                <h2>Our Videos</h2>
+                <div class="videos">
+                    <div class="video">
+                        <img src="thumbnail1.jpg" alt="Video 1">
+                        <p>Video 1 Title</p>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail2.jpg" alt="Video 2">
+                        <p>Video 2 Title</p>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail3.jpg" alt="Video 3">
+                        <p>Video 3 Title</p>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail4.jpg" alt="Video 4">
+                        <p>Video 4 Title</p>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail5.jpg" alt="Video 5">
+                        <p>Video 5 Title</p>
+                    </div>
+                    <div class="video">
+                        <img src="thumbnail6.jpg" alt="Video 6">
+                        <p>Video 6 Title</p>
+                    </div>
+                </div>
+                <button id="load-more">Load More</button>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="social-media">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram"> Instagram
+                </a>
+                <a href="https://twitter.com/yourprofile" target="_blank">
+                    <img src="twitter-icon.png" alt="Twitter"> Twitter
+                </a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank">
+                    <img src="facebook-icon.png" alt="Facebook"> Facebook
+                </a>
+                <a href="https://www.youtube.com/yourchannel" target="_blank">
+                    <img src="youtube-icon.png" alt="YouTube"> YouTube
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+
+            <h3>Suggestions</h3>
+            <form id="suggestion-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="suggestion">Suggestion:</label>
+                <textarea id="suggestion" name="suggestion" required></textarea>
+
+                <label for="captcha">Captcha: What is 5 + 3?</label>
+                <input type="text" id="captcha" name="captcha" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your YouTube Channel</p>
+        <p>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a> |
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> |
+            <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a> |
+            <a href="https://www.youtube.com/yourchannel" target="_blank">YouTube</a>
+        </p>
+    </footer>
+</body>
+</html>
